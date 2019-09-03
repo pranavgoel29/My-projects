@@ -1,0 +1,75 @@
+$bgcolor: rgb(32, 31, 31);
+$dropcolor: rgb(10, 66, 219); 
+
+html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: $bgcolor;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.drop{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    transform: rotate(-45deg);
+    margin-top: 50px;
+    border: 5px solid $bgcolor;
+    box-shadow: 0 0 0 6px $dropcolor;
+    overflow: hidden;
+
+    .wave{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: $dropcolor;
+        transform: rotate(45deg);
+        border-radius: 50%;
+        box-shadow: inset 0 0 50px $bgcolor;
+    
+    &:before,&:after{
+        content: '';
+        position: absolute;
+        width:200%;
+        height: 200%;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -75%);
+        background: rgba(45, 45, 45, .5);
+    }
+
+    &:before{
+        border-radius: 45%;
+        background: $bgcolor;
+        animation: wave 8s linear infinite;
+    }
+    &:after{
+        border-radius: 40%;
+        background: rgba(45, 45, 45, .5);
+        animation: wave 8s linear infinite;
+    }
+  }
+}
+
+@keyframes wave{
+    0%{
+        transform: translate(-50%, -75%)
+        rotate(0deg);
+        top: 100px;
+    }
+    100%{
+        transform: translate(-50%, -75%)
+        rotate(360deg);
+        top: -80px;
+    }
+}

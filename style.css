@@ -1,0 +1,101 @@
+html, body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #201f1f;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.drop {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-top: 50px;
+  border: 5px solid #201f1f;
+  -webkit-box-shadow: 0 0 0 6px #0a42db;
+          box-shadow: 0 0 0 6px #0a42db;
+  overflow: hidden;
+}
+
+.drop .wave {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #0a42db;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0 0 50px #201f1f;
+          box-shadow: inset 0 0 50px #201f1f;
+}
+
+.drop .wave:before, .drop .wave:after {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -75%);
+          transform: translate(-50%, -75%);
+  background: rgba(45, 45, 45, 0.5);
+}
+
+.drop .wave:before {
+  border-radius: 45%;
+  background: #201f1f;
+  -webkit-animation: wave 8s linear infinite;
+          animation: wave 8s linear infinite;
+}
+
+.drop .wave:after {
+  border-radius: 40%;
+  background: rgba(45, 45, 45, 0.5);
+  -webkit-animation: wave 8s linear infinite;
+          animation: wave 8s linear infinite;
+}
+
+@-webkit-keyframes wave {
+  0% {
+    -webkit-transform: translate(-50%, -75%) rotate(0deg);
+            transform: translate(-50%, -75%) rotate(0deg);
+    top: 100px;
+  }
+  100% {
+    -webkit-transform: translate(-50%, -75%) rotate(360deg);
+            transform: translate(-50%, -75%) rotate(360deg);
+    top: -80px;
+  }
+}
+
+@keyframes wave {
+  0% {
+    -webkit-transform: translate(-50%, -75%) rotate(0deg);
+            transform: translate(-50%, -75%) rotate(0deg);
+    top: 100px;
+  }
+  100% {
+    -webkit-transform: translate(-50%, -75%) rotate(360deg);
+            transform: translate(-50%, -75%) rotate(360deg);
+    top: -80px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

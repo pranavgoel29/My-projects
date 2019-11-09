@@ -2,7 +2,7 @@
 
 * This is not my creation I made it with the help of a tutorial on `INSTAGRAM` 
 
-### Posted by 'https://www.instagram.com/webdev.tips' you should `definately check his/her account`
+### Posted by 'https://www.instagram.com/webdev.tips' you should definately check his/her account
 
 * They have tons of tutorials like this or I say better than THIS.
 

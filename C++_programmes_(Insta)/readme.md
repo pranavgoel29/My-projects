@@ -17,4 +17,4 @@
 
 * Then, I am gonna check it and if I think your way is better then I will definately update the files because we are here to improve and `Help eachother`. 
 
-* If for some reason I didn't check it or reply you then you can `directly message` me on [Instagram]("https://www.instagram.com/pranavgoel_29").
+* If for some reason I didn't check it or reply you then you can `directly message` me on [Instagram](https://www.instagram.com/pranavgoel_29).

@@ -6,7 +6,8 @@
 
 * So, you don't know where to start from & you just want to try it.
 
-* Then, these programme may be helpful to you these `consist` of some explanation which gonna help you why I `used something` and what is its `functioning`. 
+* Then, these programme may be helpful to you these `consist` of some explanation which gonna help you why I 
+`used something` and what is its `functioning`. 
 
 * The best part is that these series or repo will gonna be updated frequently so you get to know something `new` whenever you visit this repo/folder.
 

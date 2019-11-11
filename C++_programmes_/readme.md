@@ -2,7 +2,7 @@
 
 * These are the programmes which will help you to get started with C++
 
-#### Why you should consider these ?
+### Why you should consider these ?
 
 * So, you don't know where to start from & you just want to try it.
 

@@ -4,7 +4,7 @@
 
 ### Posted by 'https://www.instagram.com/dimek.js/' you should definately check his account
 
-* He has tons of posts on 'CSS Animation' like this or I say better than THIS.
+* He has tons of posts on 'CSS Animation' like this and many other things.
 
 * You can also follow me on `INSTAGRAM` I also posted some posts to `get started with C++` where I explained all the things which I have used.
 

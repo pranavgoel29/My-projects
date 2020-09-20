@@ -16,6 +16,6 @@
 
 * Then please consider to send a pull request to this repo section with the explanation why you think its better or easier to do or just send pull request so I can add it because their no harm in learning new ways to do a thing. 
 
-* Then, I am gonna check it and if I think your way is better then I will definately update the files because we are here to improve and `Help eachother`. 
+* Then, I am gonna check it and will definately update the files if I found no errors in program (always test your programme before sending and try to reduse as much errors as you can) we are here to improve and `Help eachother`. 
 
 * If for some reason I didn't check it or reply you then you can `directly message` me on [Instagram](https://www.instagram.com/pranavgoel_29).

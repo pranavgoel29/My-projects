@@ -32,7 +32,7 @@ int main()
                 break;
         default: cout<<"\nWrong number of day!";        // If we input any other number than (1-7) then this will run as we didn't declare any case for other numbers.
                                                         /* This runs whenever the entered value 
-                                                        in switch didn't satisfy any of the defined cases.*/
+                                                           in switch didn't satisfy any of the defined cases.*/
     }
     return 0;
 }

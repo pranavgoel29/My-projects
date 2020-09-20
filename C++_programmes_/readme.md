@@ -18,4 +18,6 @@
 
 * Then, I am gonna check it and will definately update the files if I found no errors in program (always test your programme before sending and try to reduse as much errors as you can) we are here to improve and `Help eachother`. 
 
+* You should also check my `Youtube Channel` there I uploaded videos on some basic concepts of C++ (sorry they are in Hindi) ,let me know if you want subtitle on the videos I will add them [VS Techz](https://www.youtube.com/channel/UCS5Y6YXkErZPmOYZIV3I_0A).
+
 * If for some reason I didn't check it or reply you then you can `directly message` me on [Instagram](https://www.instagram.com/pranavgoel_29).

@@ -16,7 +16,7 @@ int main()
     cout<<"Enter the second value: ";
     cin>>b;
     op:
-    cout<<"Enter an operator(+, -, *, /): ";
+    cout<<"Enter an operator(+, -, *, /, %): ";
     cin>>ch;
     switch(ch)
     {
@@ -31,13 +31,24 @@ int main()
                   break;
         case '/': if(b == 0)
                     {
-                        cout<<"\nThe dominator cannot be zero."<<endl;
+                        cout<<"\nThe dinominator cannot be zero."<<endl;
                         goto dominator;
                     }
                   else
                   c= a/b;
                   cout<<"\nThe quotient of the given value is "<<c<<endl;
                   break;
+        case '%': if((int)b==0)
+                {
+                    cout<<"\nThe dinominator cannot be zero."<<endl;
+                    goto dominator;
+                }
+                else
+                {
+                    c= (int)a % (int)b;
+                    cout<<"\nThe remainder of the given value is "<<c<<endl;
+                    break;
+                }
         default: cout<<"\nYou entered an invalid operator!"<<endl;
                  cout<<"Please choose an valid operator!\n"<<endl;
                  goto op;

@@ -9,7 +9,7 @@ int main()              /* Means that out funct. needs to return some integer at
 {
     system("cls");      //clear the content on the screen every time when we run the programme
 
-    cout<<"HELLO WORLD!!!"; // Double quotes used for a string
+    cout<<"HELLO WORLD!!"; // Double quotes used for a string
 
     getch();            /* It holds the programme execution until you enter a character
                         not compulsary but helpful when you have so many inputs and 

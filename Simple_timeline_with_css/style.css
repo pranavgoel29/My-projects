@@ -72,3 +72,7 @@ body {
     font-size: 16px;
     margin-top: 0px;
 }
+
+.text:hover{
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}

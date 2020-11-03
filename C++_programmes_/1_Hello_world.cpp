@@ -1,4 +1,4 @@
-#include<iostream>      // for input and output
+#include<iostream>      // For input and output
 
 #include<conio.h>       // Header file for getch()
 

@@ -10,7 +10,7 @@ int main()
     float a, b, c, i;
     cout<<"CALCULATOR!"<<endl;
     {
-    dominator:
+    denominator:
     cout<<"\nEnter first value: ";
     cin>>a;
     cout<<"Enter the second value: ";
@@ -31,8 +31,8 @@ int main()
                   break;
         case '/': if(b == 0)
                     {
-                        cout<<"\nThe dinominator cannot be zero."<<endl;
-                        goto dominator;
+                        cout<<"\nThe denominator cannot be zero."<<endl;
+                        goto denominator;
                     }
                   else
                   c= a/b;
@@ -40,8 +40,8 @@ int main()
                   break;
         case '%': if((int)b==0)
                 {
-                    cout<<"\nThe dinominator cannot be zero."<<endl;
-                    goto dominator;
+                    cout<<"\nThe denominator cannot be zero."<<endl;
+                    goto denominator;
                 }
                 else
                 {

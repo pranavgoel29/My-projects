@@ -18,8 +18,7 @@
 
 * Then, I am gonna check it and will definitely update the files if I found no errors in the program (always test your program before sending and try to reduce as many errors as you can) we are here to improve and `Help each other. 
 
-## You can also check my 'Youtube channel' for a better understanding.
+## Code of Conduct
 
-* You should also check my `Youtube Channel` there I uploaded videos on some basic concepts of C++ (sorry they are in Hindi), let me know if you want subtitles on the videos I will add them [VS Techz](https://www.youtube.com/channel/UCS5Y6YXkErZPmOYZIV3I_0A).
-
-* If for some reason I didn't check it or reply to you then you can `directly message` me on [Instagram](https://www.instagram.com/pranavgoel_29).
+Please refer to the following file -
+[code-of-conduct.md](https://github.com/pranavgoel29/My-projects/blob/9bd0669446832e4f9f97e26764391cef9ab60369/C++_programmes_/code-of-conduct.md)
